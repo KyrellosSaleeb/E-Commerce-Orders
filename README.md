@@ -36,20 +36,20 @@ XlsxWriter: To export analysis results into an Excel file.
 
 
 File Structure
-bash
-Copy code
+
 E-Commerce Data Analysis/
 ├── orders.xlsx              # Order data
 ├── order_payment.xlsx       # Payment details
 ├── customers.xlsx           # Customer data
 ├── E_Commerce_analysis_results.xlsx  # Exported analysis results
 └── analysis_notebook.ipynb  # Jupyter notebook containing the full analysis
+
 How to Use
+
 Install Dependencies: Ensure you have the necessary Python libraries installed:
 
-bash
-Copy code
 pip install pandas numpy matplotlib seaborn xlsxwriter
+
 Prepare Data: Place the required Excel files (orders.xlsx, order_payment.xlsx, and customers.xlsx) in the same directory as the project.
 
 Run the Analysis: Execute the analysis script or Jupyter notebook to clean, analyze, and visualize the data.
@@ -58,3 +58,5 @@ Export Results: The results will be saved to an Excel file E_Commerce_analysis_r
 
 Conclusion
 This analysis provides a detailed understanding of e-commerce transactions, including trends in orders, payment methods, and customer demographics. The visualizations offer an intuitive way to explore the data, while the exported Excel file allows for further examination and decision-making.
+
+
